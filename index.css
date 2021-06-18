@@ -1,0 +1,491 @@
+.full_body {
+    font-family: sans-serif;
+}
+/*---------------------------------- Section 1 ----------------------------------  */
+
+.header {
+    background: rgb(34, 33, 33);
+    width: 110%;
+    padding-bottom: 100px;
+}
+.nav1{
+    text-decoration: none;
+    color: darkgray;
+   
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+}
+
+nav a:hover {
+    color: darkgray;
+}
+
+.heading {
+    color: rgb(228, 228, 228);
+    padding: 100px 0px;
+    margin-left: 33%;
+}
+
+.name{
+    padding: 5px;
+    padding-bottom: 1px;
+}
+
+.belowname {
+    color: rgb(228, 228, 228);
+    font-size: 15px;
+    margin-left: 8%;
+}
+
+/*---------------------------------- Section 2 ----------------------------------  */
+
+.profile_head {
+    font-size: 18px;
+    color: black;
+}
+
+.profile_content {
+    font-size: 14px;
+    width: 75%;
+}
+
+.profile {
+    margin-top: 7%;
+}
+
+.image {
+    margin: 30% 20% 5% 0%;
+}
+
+.responsive {
+    width: 80%;
+    height: auto;
+}
+
+.icons {
+    padding: 3% 1% 7% 8%;
+    margin-left: 12%;
+}
+  
+.links {
+    margin-left: 22%;
+}
+  
+.fa-wikipedia-w {
+    color: #9c9b9b;
+}
+  
+.icon_wiki {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(206, 206, 206);
+    color: rgb(83, 83, 83);
+    border-radius: 5%;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 6px;
+    right: 10px;
+}
+
+.icon_wiki:hover {
+    color: rgb(83, 83, 83);
+}
+
+.icon_video {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(214, 20, 20);
+    color: rgb(247, 242, 242);
+    border-radius: 5%;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 6px;
+  }
+
+.icon_video:hover {
+    color: rgb(247, 242, 242);
+}
+
+.icon_amazon {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ff9900;
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+
+.icon_amazon:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*---------------------------------- Section 3 ----------------------------------  */
+
+.quote_row {
+    background: rgb(34, 33, 33);
+    padding: 3%;
+    padding-left: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+#quoterow{
+    text-align: center;
+}
+  
+.quote {
+    color: rgb(228, 228, 228);
+    padding: 0% 0% 0% 5%;
+    margin-left: 22%;
+    background: rgb(34, 33, 33);
+    font-size: 12px;
+}
+
+.awards h3 {
+    display: flex;
+    flex-direction: row;
+    padding: 3% 0% 3% 0%;
+    width: 95%;
+}
+
+.awards h3:before,
+.awards h3:after {
+    content: '';
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin: auto;
+    color: #e2dede;
+}
+
+.awards h3 span {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+
+/*---------------------------------- Section 4 ----------------------------------  */
+.awards_content {
+    padding-left: 20px;
+    width: 80%;
+}
+
+.gold_medal,
+.padma_bhushan,
+.national_poet,
+.padak {
+  border-radius: 3px;
+  border: 1px solid #dddbdb;
+  font-family: Sans-serif;
+  font-size: 10px;
+  margin-right: 10px;
+  width: 270px;
+  margin-bottom: 10px;
+}
+
+.year1,
+.year2,
+.year3,
+.year4 {
+  margin-top: -2px;
+  color: #9c9b9b;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: #5a5a5a;
+}
+
+.award_name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+/*---------------------------------- Section 5 ----------------------------------  */
+.poetry_heading,
+.poemsandsongs_head {
+  display: flex;
+  flex-direction: row;
+  padding: 3% 0% 3% 0%;
+}
+
+.poetry_heading:before,
+.poetry_heading:after,
+.poemsandsongs_head:before,
+.poemsandsongs_head:after {
+  content: '';
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+  color: #e2dede;
+}
+
+.poetry h3,
+.poemsandsongs h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.poetry_content,
+.poemsandsongs_content {
+  font-size: 12px;
+  margin-bottom: 25%;
+  width: 80%;
+}
+
+/*---------------------------------- Section 6 ----------------------------------  */
+
+.footer {
+    background: rgb(34, 33, 33);
+    width: 100%;
+    margin: 0%;
+  }
+  .footer_table {
+    color: rgb(228, 228, 228);
+    font-size: 10px;
+    margin: 30px 30px;
+  }
+  .footer_head {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .footer_table td + td {
+    border-left: 1px solid rgb(138, 138, 138);
+  }
+  
+  .col1,
+  .col2,
+  .col3 {
+    width: 450px;
+  }
+  .col2 h5,
+  .col2 p,
+  .col3 p,
+  .col3 h5 {
+    margin-left: 30px;
+  }
+  
+  .col1 p,
+  .col2 p,
+  .col3 p {
+    font-size: 8px;
+  }
+  .col1 p span {
+    color: rgb(138, 138, 138);
+  }
+  .col3 a {
+    text-decoration: none;
+    color: rgb(94, 155, 224);
+  }
+  .col2 p {
+    color: rgb(138, 138, 138);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
